@@ -1,0 +1,50 @@
+{
+    "chatEvent": [
+        {
+            "id": 1,
+            "datetime": 1649328928790,
+            "roomId": 1,
+            "sender": "Jane",
+            "message": "Hello"
+        },
+        {
+            "id": 2,
+            "datetime": 164932921590,
+            "roomId": 1,
+            "sender": "John",
+            "message": "Hi"
+        },
+        {
+            "id": 3,
+            "datetime": 1649323125760,
+            "roomId": 2,
+            "sender": "Mark",
+            "message": "How are you?"
+        },
+        {
+            "id": 4,
+            "datetime": 1649324125760,
+            "roomId": 2,
+            "sender": "Alice",
+            "message": "Fine."
+        },
+        {
+            "id": 5,
+            "datetime": 1649526155761,
+            "roomId": 2,
+            "sender": "Jane",
+            "message": "..."
+        }
+    ],
+
+    "room": [
+        {
+            "id": 1,
+            "name": "Party Room"
+        },
+        {
+            "id": 2,
+            "name": "Outing Room"
+        }
+    ]
+}
