@@ -78,8 +78,8 @@ const getAllChatInRoom = async (roomId) => {
           return await dataSource
           .getRepository(Chatevent)
           .createQueryBuilder("chatevent")
-          .select(["chatevent.id", "chatevent.message"])
-        //   .select(["chatevent.message"])
+        //   .select(["chatevent.id", "chatevent.message"])
+          .select(["chatevent.message"])
           .where("chatevent.roomId = :id", { id: roomId })
           .getMany()
       } catch (e) {
